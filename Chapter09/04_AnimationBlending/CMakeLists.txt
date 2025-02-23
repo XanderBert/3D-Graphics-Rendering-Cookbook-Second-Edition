@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(Chapter09)
 
-include(../../CMake/CommonMacros.txt)
+include(../../CMake/CommonMacros.cmake)
 
 SETUP_APP(Ch09_Sample04_AnimationBlending "Chapter 09")
 

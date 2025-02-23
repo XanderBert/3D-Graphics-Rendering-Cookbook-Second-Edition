@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(Chapter05)
 
-include(../../CMake/CommonMacros.txt)
+include(../../CMake/CommonMacros.cmake)
 
 SETUP_APP(Ch05_Sample09_ComputeMesh "Chapter 05")
 

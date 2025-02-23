@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(Chapter04)
 
-include(../../CMake/CommonMacros.txt)
+include(../../CMake/CommonMacros.cmake)
 
 SETUP_APP(Ch04_Sample02_TracyProfiler "Chapter 04")
 

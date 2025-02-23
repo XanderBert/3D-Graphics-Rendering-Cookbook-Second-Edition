@@ -2,7 +2,7 @@
 
 project(Chapter04)
 
-include(../../CMake/CommonMacros.txt)
+include(../../CMake/CommonMacros.cmake)
 
 SETUP_APP(Ch04_Sample03_FPS "Chapter 04")
 

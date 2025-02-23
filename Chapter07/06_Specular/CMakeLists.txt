@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(Chapter07)
 
-include(../../CMake/CommonMacros.txt)
+include(../../CMake/CommonMacros.cmake)
 
 SETUP_APP(Ch07_Sample06_Specular "Chapter 07")
 

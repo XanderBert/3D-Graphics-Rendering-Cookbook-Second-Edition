@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(SharedUtils CXX C)
 
-include(../CMake/CommonMacros.txt)
+include(../CMake/CommonMacros.cmake)
 
 file(GLOB_RECURSE SRC_FILES LIST_DIRECTORIES false RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} *.c??)
 file(GLOB_RECURSE HEADER_FILES LIST_DIRECTORIES false RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} *.h)

@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(Chapter06)
 
-include(../../CMake/CommonMacros.txt)
+include(../../CMake/CommonMacros.cmake)
 
 SETUP_APP(Ch06_Sample05_SpecularGlossiness "Chapter 06")
 
